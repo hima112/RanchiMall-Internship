@@ -4,29 +4,22 @@
 
 ## Externaltrigger-
 
-## 1) GET/api/v2/smartContractInfo-
+### 1) GET/api/v2/smartContractInfo-
 
-## Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,userchoices
+● OptionalParameters:minimumsubscriptionamout,maximumsubsciptionamount,contractamount
 
-## ● CompulsoryParameters:expirytime,userchoices
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=twitter-survive&contractAddress=oVbebBNuERWbouDg65zLfdataWEMTnsL8r
 
-## ● OptionalParameters:minimumsubscriptionamout,maximumsubsciptionamount,
+#### ResponseFormat : 
+JSON
 
-## contractamount
-
-## Link(testnet) :
-
-## https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=twitt
-
-## er-survive&contractAddress=oVbebBNuERWbouDg65zLfdataWEMTnsL8r
-
-## ResponseFormat :
-
-## JSONResponse :
-
-#### {
+#### JSONResponse :
 
 ```
+{
 "contractAddress":"oVbebBNuERWbouDg65zLfdataWEMTnsL8r",
 "contractInfo":{
 "closeDate":"1681983849",
@@ -57,28 +50,21 @@ end-contract-conditions",
 "contractName":"twitter-survive"
 }
 ```
-## 2) GET/api/v2/smartContractInfo-
+### 2) GET/api/v2/smartContractInfo-
 
-## Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,userchoices
+● OptionalParameters:N/A
 
-## ● CompulsoryParameters:expirytime,userchoices
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=musk-vs-zuck-cage-war&contractAddress=ocEjM1W92oRpujLyuxN7wAiTmi33qdbAzg
 
+#### ResponseFormat :
+JSON
 
-### ● OptionalParameters:N/A
-
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=mus
-
-### k-vs-zuck-cage-war&contractAddress=ocEjM1W92oRpujLyuxN7wAiTmi33qdbAzg
-
-### ResponseFormat :JSON
-
-### JSONResponse:
-
-#### {
-
+#### JSONResponse:
 ```
+{
 "contractAddress":"ocEjM1W92oRpujLyuxN7wAiTmi33qdbAzg",
 "contractInfo":{
 "contractAddress":"ocEjM1W92oRpujLyuxN7wAiTmi33qdbAzg",
@@ -106,21 +92,17 @@ end-contract-conditions",
 ```
 ### 3) GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,userchoices
+● OptionalParameters:contractamount
 
-### ● CompulsoryParameters:expirytime,userchoices
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=world-cup-winner&contractAddress=oV2yXU9pAWEB1HXrS5qVa5ANPFEKqu4Eoh
 
-### ● OptionalParameters:contractamount
+#### ResponseFormat :
+JSON
 
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=worl
-
-### d-cup-winner&contractAddress=oV2yXU9pAWEB1HXrS5qVa5ANPFEKqu4Eoh
-
-### ResponseFormat :JSON
-
-### JSONResponse:
+#### JSONResponse:
 
 ```
 {
@@ -152,21 +134,17 @@ expiryTime=SunSep 242023 19:38:00GMT+0530(IndiaStandardTime)(2)userchoices=India
 ```
 ### 4) GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,userchoices
+● OptionalParameters:maximumsubscriptionamout
 
-### ● CompulsoryParameters:expirytime,userchoices
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=nfl-winner-2023&contractAddress=oUmSj8w4aQPikn7DAv4RgR11LJ18kwL2uB
 
-### ● OptionalParameters:maximumsubscriptionamout
+#### ResponseFormat :
+JSON
 
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=nfl-w
-
-### inner-2023&contractAddress=oUmSj8w4aQPikn7DAv4RgR11LJ18kwL2uB
-
-### ResponseFormat :JSON
-
-### JSONResponse:
+#### JSONResponse:
 
 ```
 {
@@ -199,21 +177,17 @@ maximumsubscriptionamount=0.004(3)userchoices=Kansas|Denverend-contract-conditio
 
 ### 5) GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,userchoices
+● OptionalParameters:minimumsubscriptionamount
 
-### ● CompulsoryParameters:expirytime,userchoices
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=cd-contest&contractAddress=od7HZTPsndHDiwiieSxxmtYiCaLf3vNZ6m
 
-### ● OptionalParameters:minimumsubscriptionamount
+#### ResponseFormat :
+JSON
 
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=cd-c
-
-### ontest&contractAddress=od7HZTPsndHDiwiieSxxmtYiCaLf3vNZ6m
-
-### ResponseFormat :JSON
-
-### JSONResponse:
+#### JSONResponse:
 
 ```
 {
@@ -244,27 +218,21 @@ expiryTime=SunOct 082023 18:22:00GMT+0530(IndiaStandardTime)(2)minimumsubscripti
 "contractName":"cd-contest"
 }
 ```
-### Timetrigger-
+## Timetrigger-
 
 ### 6) GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,payeeaddress
+● OptionalParameters:contractamount
 
-### ● CompulsoryParameters:expirytime,payeeaddress
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=album-fund-2&contractAddress=oaALNw1n8sXPeWuG7HWbks8DwkTr6v1vGn
 
-### ● OptionalParameters:contractamount
+#### ResponseFormat :
+JSON
 
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=albu
-
-### m-fund-2&contractAddress=oaALNw1n8sXPeWuG7HWbks8DwkTr6v1vGn
-
-### ResponseFormat :JSON
-
-### JSONResponse :
-
-#### 
+#### JSONResponse :
 
 ```
 {
@@ -327,21 +295,18 @@ contractamount=0.1end-contract-conditions",
 ```
 ### 7) GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,payeeaddress
+● OptionalParameters:minimumsubscriptionamout,contractamount
 
-### ● CompulsoryParameters:expirytime,payeeaddress
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=mini
+mum-subscription-test&contractAddress=ockp7EQr4SXxqbDH4KktovBsBspwgmPoGb
 
-### ● OptionalParameters:minimumsubscriptionamout,contractamount
+### ResponseFormat :
+JSON
 
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=mini
-
-### mum-subscription-test&contractAddress=ockp7EQr4SXxqbDH4KktovBsBspwgmPoGb
-
-### ResponseFormat :JSON
-
-### JSONResponse:
+#### JSONResponse:
 
 ```
 {
@@ -375,22 +340,17 @@ minimumsubscriptionamount= 1 end-contract-conditions",
 ```
 ### 8) GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,payeeaddress
+● OptionalParameters:maximumsubscriptionamout,contractamount
 
-### ● CompulsoryParameters:expirytime,payeeaddress
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=maximum-subscription-test&contractAddress=odXR6DxV84UVxPSehzWkgcTdYrmM1tBApV
 
-### ● OptionalParameters:maximumsubscriptionamout,contractamount
+#### ResponseFormat :
+JSON
 
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=maxi
-
-### mum-subscription-test&contractAddress=odXR6DxV84UVxPSehzWkgcTdYrmM1tBApV
-
-### ResponseFormat :JSON
-
-
-### JSONResponse:
+#### JSONResponse:
 
 ```
 {
@@ -423,19 +383,15 @@ end-contract-conditions",
 ```
 ### 9) GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,payeeaddress
+ OptionalParameters:minimumsbscriptionamount
 
-### ● CompulsoryParameters:expirytime,payeeaddress
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=icc-winner-2023&contractAddress=oasgK1ZGWSDHFL5moHfEAycwJRjT3DS66J
 
-### ● OptionalParameters:minimumsbscriptionamount
-
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=icc-w
-
-### inner-2023&contractAddress=oasgK1ZGWSDHFL5moHfEAycwJRjT3DS66J
-
-### ResponseFormat :JSON
+#### ResponseFormat :
+JSON
 
 ### JSONResponse:
 
