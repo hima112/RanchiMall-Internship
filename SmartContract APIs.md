@@ -384,8 +384,8 @@ end-contract-conditions",
 ### 9) GET/api/v2/smartContractInfo-
 
 #### Parameters :
-● CompulsoryParameters:expirytime,payeeaddress
- OptionalParameters:minimumsbscriptionamount
+● CompulsoryParameters: expirytime,payeeaddress
+● OptionalParameters: minimumsbscriptionamount
 
 #### Link(testnet) :
 https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=icc-winner-2023&contractAddress=oasgK1ZGWSDHFL5moHfEAycwJRjT3DS66J
@@ -429,21 +429,17 @@ minimumsubscriptionamount=0.01(3)userchoices=India|Pakistanend-contract-conditio
 ```
 ### 10)GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,payeeaddress
+● OptionalParameters:maximumsbscriptionamount
 
-### ● CompulsoryParameters:expirytime,payeeaddress
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=students-token-crowdfunding&contractAddress=of3v1U84JemDzqPnNwsqmXZzHN2y3JFyt
 
-### ● OptionalParameters:maximumsbscriptionamount
+#### ResponseFormat :
+JSON
 
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=stud
-
-### ents-token-crowdfunding&contractAddress=of3v1U84JemDzqPnNwsqmXZzHN2y3JFyt
-
-### ResponseFormat :JSON
-
-### JSONResponse:
+#### JSONResponse:
 
 ```
 {
@@ -478,23 +474,17 @@ end-contract-conditions",
 ```
 ### 11)GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters: expirytime, payeeaddress
+● OptionalParameters: minimumsubscriptionamount, maximumsubscriptionamount, contractamount
 
-### ● CompulsoryParameters:expirytime,payeeaddress
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=abc-token-crowdfunding&contractAddress=oTvJzjA96hb57WakJSMQ8cXfAxCqQCqcKD
 
-### ● OptionalParameters:minimumsubscriptionamount,
+#### ResponseFormat :
+JSON
 
-### maximumsubscriptionamount,contractamount
-
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=abc-t
-
-### oken-crowdfunding&contractAddress=oTvJzjA96hb57WakJSMQ8cXfAxCqQCqcKD
-
-### ResponseFormat :JSON
-
-### JSONResponse:
+#### JSONResponse:
 
 ```
 {
@@ -529,22 +519,17 @@ oQotdnMBAP1wZ6Kiofx54S2jNjKGiFLYD7:100end-contract-conditions",
 ```
 ### 12)GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:expirytime,payeeaddress
+● OptionalParameters:minimumsubscriptionamount,maximumsubscriptionamout
 
-### ● CompulsoryParameters:expirytime,payeeaddress
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=ghi-token-crowdfund&contractAddress=oQe3V3UttSnGm6PRxz8Go8Dv8cYSSJ11u
 
-### ● OptionalParameters:minimumsubscriptionamount,maximumsubscriptionamout
+#### ResponseFormat :
+JSON
 
-
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=ghi-t
-
-### oken-crowdfund&contractAddress=oQe3V3UttSnGm6PRxz8Go8Dv8cYSSJ11u
-
-### ResponseFormat :JSON
-
-### JSONResponse:
+#### JSONResponse:
 
 ```
 {
@@ -580,21 +565,17 @@ oQotdnMBAP1wZ6Kiofx54S2jNjKGiFLYD7:100end-contract-conditions",
 
 ### 1) GET/api/v2/smartContractInfo-
 
-### Parameters :
+#### Parameters :
+● CompulsoryParameters:subtype-token-incorp,accepting_token
+● OptionalParameters:selling_token,pricetype,price
 
-### ● CompulsoryParameters:subtype-token-incorp,accepting_token
+#### Link(testnet) :
+https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=swap-rupee-bioscope&contractAddress=oTzrcpLPRXsejSdYQ3XN6V4besrAPuJQrk
 
-### ● OptionalParameters:selling_token,pricetype,price
+#### ResponseFormat :
+JSON
 
-### Link(testnet) :
-
-### https://ranchimallflo-testnet.ranchimall.net/api/v2/smartContractInfo?contractName=swap-
-
-### rupee-bioscope&contractAddress=oTzrcpLPRXsejSdYQ3XN6V4besrAPuJQrk
-
-### ResponseFormat :JSON
-
-### JSONResponse :
+#### JSONResponse :
 
 ```
 {
